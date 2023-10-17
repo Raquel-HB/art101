@@ -1,0 +1,15 @@
+
+.kitten-pic {
+width: 100%; 
+max-width: 500px;
+} 
+.border-bright{
+
+    border-width: 10px;
+    border-color: rgb(255, 174, 52); 
+}
+
+A {
+    font-weight: bold; 
+}
+

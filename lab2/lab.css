@@ -1,0 +1,30 @@
+p{
+    color: #6b0e14;
+    text-indent: 20px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color:#47707a;
+    font-size: 400%;
+    font-family: cursive;
+}
+h2 {
+    color:#47707a;
+    font-size: 200%;
+    font-family: cursive;
+}
+h3 {
+    color:#47707a;
+    font-size: 200%;
+    font-family: cursive;
+}
+#content {
+    background-color: beige;
+    width: 800px;
+    min-height: 400px;
+    padding: 100px; 
+    margin: 100px;
+    border: solid 3px #47707a;
+    font-size: 20px;
+}
