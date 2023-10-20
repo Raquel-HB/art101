@@ -1,11 +1,11 @@
 body {
     background-color: #0c2b35;
-    margin: 100px;
-    padding: 100px;
+    margin: 10px;
+    padding: 10px;
+
   }
   
-
-  h1,h2 {
+ h1,h2 {
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
   }
@@ -17,7 +17,10 @@ body {
     color: aliceblue;
   }
 p1{
-    color: black;
+  color: #000000;
+  text-indent: 20px;
+  margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
  
   h1 {
