@@ -1,36 +1,16 @@
-p{
-    color: #6b0e14;
-    text-indent: 20px;
-    margin-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
-}
-h1 {
-    color:#47707a;
-    font-size: 400%;
-    font-family: cursive;
-}
-h2 {
-    color:#47707a;
-    font-size: 200%;
-    font-family: cursive;
-}
-h3 {
-    color:#47707a;
-    font-size: 200%;
-    font-family: cursive;
-}
+/* Here we can set styles for this lab page that we don't want to effect others pages */
 
-img {
-    width: 600px;
-    height: 800px;
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #770606;
+    background-color: #f7d7a1;
   }
-#content {
-background-color: beige;
-
-    
-    padding: 300px;
-    margin: 300px;
+  #content {
+    background-color: rgb(174, 196, 242);
+    font-size: 20px;
     border: solid 3px #47707a
     border-color rgb(71, 112, 122);
-    font-size: 50px;
+    font-size: 20px;
 }
