@@ -3,10 +3,20 @@ body {
   }
   
 
-  h1,h2,h3 {
+  h1,h2 {
     font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+  }
+  h3{
+    color: black;
   }
   
+  p{ 
+    color: aliceblue;
+  }
+p1{
+    color: black;
+}
  
   h1 {
     letter-spacing: 5px;
@@ -19,7 +29,8 @@ body {
     margin: 10px;
     padding: 10px;
     border: solid 1px #941a1a;
-    background-color: #8db584;
+    background-color: #0c2b35;
+
   }
   
 
@@ -27,6 +38,6 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #a50606;
-    background-color: #f0a6a6;
+    background-color: #a6c7f0;
   }
   
