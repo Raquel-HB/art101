@@ -26,8 +26,10 @@ img {
   }
 #content {
 background-color: beige;
-margin: 20;
-padding: 30;
+    height: 50;
+    width: 30;
+    margin: 20; 
+    padding: 30;
     font-size: 40px;
     border: solid 3px #47707a
     border-color rgb(71, 112, 122);
