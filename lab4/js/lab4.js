@@ -1,10 +1,9 @@
-
 // Rock, Paper, Scissors
 // An implementation of the game
 // Raquel Herrera rherrer9@ucsc.edu>
 // October 2023
 
-Userinput (Rock, Paper, Scissors)
+ (Rock, Paper, Scissors)
 
 //Computer chooses moves
      //Random
@@ -31,5 +30,4 @@ Userinput (Rock, Paper, Scissors)
 
 
         // script.js
-
-  
+        
