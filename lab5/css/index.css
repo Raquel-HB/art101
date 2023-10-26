@@ -1,0 +1,45 @@
+
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #db1b1b;
+    background-color: #deab4c;
+  }
+
+body{ 
+background-color: #310502;
+  } 
+
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #f06c07;
+    background-color: #c7fab5;
+  } 
+  img {
+    width: 400px;
+    height: 300px;
+  } 
+   h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(96, 5, 5);
+    font-size: 40px; 
+  } 
+  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(34, 1, 76);
+  } 
+  h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(34, 1, 76);
+    font-size: 35spx
+  } 
+
+  p{
+    color: #530106;
+    text-indent: 20px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
