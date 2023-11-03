@@ -18,5 +18,5 @@ function sourceUserName() {
 
 } 
 document.writeln ("It's nice meeting you! ")
-document.writeln (" Displaying name here. ",
+document.writeln (" Displaying name here: ",
       sourceUserName(), "</br>"); 
