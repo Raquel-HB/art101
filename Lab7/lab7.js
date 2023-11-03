@@ -3,13 +3,10 @@
  * Created: Oct 31,2023
  */
 
-let person = prompt("Please enter your name", "Name");
-
-
-function sortUserName() { 
-    var userName = window.prompt ("Hello! May I have your name please :) ");
+function sourceUserName() { 
+    var userName = window.prompt ("Hello! May I have your name please ");
     console.log("userName =", userName); 
-    var nameArray = userName.split( ""); 
+    var nameArray = userName.split(""); 
     console.log("nameArray=", nameArraySort); 
     var nameArraySort = nameArray.sort();
     console.log("nameArraySport =", nameArraySort);
@@ -20,6 +17,6 @@ function sortUserName() {
     return nameSorted; 
 
 } 
-
-document.writeln (" Nice, Displaying name here :D: ",
-      sourtUserName(), "</br>"); 
+document.writeln ("It's nice meeting you! ")
+document.writeln (" Displaying name here. ",
+      sourceUserName(), "</br>"); 
