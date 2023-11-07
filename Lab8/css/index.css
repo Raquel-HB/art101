@@ -1,0 +1,39 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #ffc400;
+    background-color: #f2deba;
+  }
+
+body{ 
+background-color: #542104;
+  } 
+
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: rgb(214, 125, 77);
+    font-size: 40px; 
+  } 
+  h2 {
+    font-family: 'times new roman', Times, serif;
+    color: rgb(144, 164, 63);
+    font-size: 25spx
+  } 
+  h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(144, 164, 63);
+    font-size: 35spx
+  } 
+  h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(144, 164, 63);
+    font-size: 35spx
+  } 
+ 
+
+  p{
+    color: #6b0e14;
+    text-indent: 20px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
