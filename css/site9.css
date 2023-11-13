@@ -1,0 +1,46 @@
+button {
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 4px #45086d;
+    background-color: #4c73de;
+  }
+
+body{ 
+    background-color: #1a0971;
+      } 
+    
+      #content {
+        margin: 10px;
+        padding: 10px;
+        border: solid 3px #620101;
+        background-color: #165d6d;
+      } 
+      h1 {
+        font-family: cursive; 
+        color: rgb(254, 211, 42);
+        font-size: 40px; 
+      } 
+      h2 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(243, 200, 30);
+        font-size: 35spx
+      } 
+    
+      p{
+        color:  rgb(254, 211, 42);
+        text-indent: 20px;
+        margin-left: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fontSection {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    } 
+    
