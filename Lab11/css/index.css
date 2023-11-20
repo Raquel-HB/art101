@@ -1,0 +1,38 @@
+body{ 
+    background-color: #1a0971;
+      } 
+    
+      #content {
+        margin: 10px;
+        padding: 10px;
+        border: solid 3px #266201;
+        background-color: #b2cb77;
+      } 
+      h1 {
+        font-family: cursive; 
+        color: rgb(83, 66, 0);
+        font-size: 40px; 
+      } 
+      h2 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(243, 37, 30);
+        font-size: 20px
+      } 
+      h3 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(243, 37, 30);
+        font-size: 20px
+      } 
+      h4 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(243, 37, 30);
+        font-size: 20px
+      } 
+      p{
+        color:  rgb(3, 59, 46);
+        text-indent: 20px;
+        margin-left: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+ 
