@@ -1,0 +1,30 @@
+body{ 
+    background-color: rgb(3, 73, 84);
+      } 
+    
+      #content {
+        margin: 10px;
+        padding: 10px;
+        border: solid 4px #622001;
+        background-color: rgb(247, 223, 127);
+      } 
+      h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        color: rgb(83, 66, 0);
+        font-size: 40px; 
+      } 
+      h2 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(113, 4, 0);
+        font-size: 20px
+      } 
+
+      
+      p{
+        color:  rgb(59, 42, 3);
+        text-indent: 20px;
+        margin-left: 10px;
+        font-family: cursive;
+    }
+    
+ 
