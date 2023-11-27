@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>What's for Dinner Tonight?</title>
+
+    <meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="dinner.css">
+	
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="dinner.js" defer></script>
+</head>
+<body>
+	<section id="about">
+		<p><b>What's for Dinner Tonight?</b> - Created by Akira Shemansky, Angela Ambriz, Jiecheng Zhu, Kaya Levin,
+			Raquel Herrera-Bernardino, and Shiyen Yang</p>
+	</section>
+
+	<section id="title-screen">
+		<h1>What's for Dinner Tonight?</h1>
+		<button id="options-btn">Options</button>
+	</section>
+
+	<section id="questionaire" style="display: none;">
+		<!--This is where the user is asked questions to determine what foods to show-->
+		<div id="questions" class="enclosed-section">
+			<p1>
+				<br>
+				To better confirm your dinner, please answer some questions first:<br>
+				<br>
+
+				Q1: Please select all of the following that may cause you allergies:<br>
+				<input type="checkbox" id="allergy-egg" name="egg" value="off">
+				<label for="allergy-egg">Egg</label><br>
+				<input type="checkbox" id="allergy-dairy" name="dairy" value="off">
+				<label for="allergy-dairy">Dairy</label><br>
+				<input type="checkbox" id="allergy-corn" name="corn" value="off">
+				<label for="allergy-corn">Corn</label><br>
+				<input type="checkbox" id="allergy-gluten" name="gluten" value="off">
+				<label for="allergy-gluten">Gluten</label><br>
+				<input type="checkbox" id="allergy-shellfish" name="shellfish" value="off">
+				<label for="allergy-shellfish">Shellfish</label><br>
+				<br>
+
+				Q2: Please select any dietary restrictions:<br>
+				<input type="checkbox" id="diet-vegetarian" name="vegetarian" value="off">
+				<label for="diet-vegetarian">Vegetarian</label><br>
+				<input type="checkbox" id="diet-vegan" name="vegan" value="off">
+				<label for="diet-vegan">Vegan</label><br>
+				<input type="checkbox" id="diet-lowcal" name="lowcal" value="off">
+				<label for="diet-lowcal">Low Calorie</label><br>
+				<input type="checkbox" id="diet-keto" name="keto" value="off">
+				<label for="diet-keto">Ketogenic Diet</label><br>
+				<input type="checkbox" id="diet-halal" name="halal" value="off">
+				<label for="diet-halal">Halal</label><br>
+				<input type="checkbox" id="diet-kosher" name="kosher" value="off">
+				<label for="diet-kosher">Kosher</label><br>
+				<br>
+
+				Q3: Have you ingested any of the following in the past few hours:<br>
+				<input type="checkbox" id="in-alcohol" name="alcohol" value="off">
+				<label for="in-alcohol">Alcohol</label><br>
+				<input type="checkbox" id="in-soda" name="soda" value="off">
+				<label for="in-soda">Soda</label><br>
+				<input type="checkbox" id="in-seafood" name="seafood" value="off">
+				<label for="in-seafood">Seafood</label><br>
+				<input type="checkbox" id="in-drugs" name="drugs" value="off">
+				<label for="in-drugs">Drugs</label><br>
+				<br>
+			</p1>
+			<button id="submit-btn">Submit</button>
+		</div>
+	</section>
+
+	<section id="results" style="display: none;">
+		<!--This is where the selected food and related info are displayed-->
+		<div id="results-page" class="enclosed-section">
+			<p2>
+				<br>
+				Results<br>
+				<br>
+			</p2>
+		</div>
+	</section>
+</body>
+</html>
