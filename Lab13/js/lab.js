@@ -5,16 +5,16 @@
    Date: Nov 26, 2023
 */
 
-maxFactors = 4;
+var maxFactors = 4;
 
-outputEl = document.getElementById("output");
+var outputEl = document.getElementById("output");
 
 // few checks here
 function getFactorObj() {
     var factorObj = {};
     for (var factor=0; factor<maxFactors; factor++) {
-       var  numId = "num" + factor;
-        var textId = "text" + factor;
+        var numId = "num" + factor;
+         var textId = "text" + factor;
         var numValue = document.getElementById(numId).value;
         var textValue = document.getElementById(textId).value;
         console.log(factor + ") num:", numValue, "text:", textValue)
@@ -36,7 +36,7 @@ function fizzBuzzBoom(maxNum, factorObj) {
     for (var num = 0; num<maxNum; num++) {
         var outputStr = "";
         for (var factor in factorObj) {
-            if (num % (factor) === 0) {
+            if (num % parseInt(factor) === 0) {
                 outputStr += factorObj[factor];
             }
         }
