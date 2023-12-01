@@ -17,8 +17,6 @@ console.log("subtracting 10 to the array:", numArray );
 
 
 
-
-
 var addingResults = numArray.map( function (x) {
 var results = x + 60
 return results
