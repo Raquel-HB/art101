@@ -18,7 +18,7 @@ function getFactorObj() {
         numValue = document.getElementById(numId).value;
         textValue = document.getElementById(textId).value;
         console.log(factor + ") num:", numValue, "text:", textValue)
-        // if either value is blank, don't use it
+
         if (numValue && textValue) {
             factorObj[numValue] = textValue;
         }
@@ -27,20 +27,20 @@ function getFactorObj() {
 }
 // some of part I got mixed on
 function outputToPage(str) {
-    newEl = document.createElement("p");
+    var newEl = document.createElement("p");
     newEl.innerHTML = str;
     outputEl.appendChild(newEl);
 }
 
 function fizzBuzzBoom(maxNums, factorObj) {
-    // iterate over all of out numbers
+  
     for (var num=0; num<maxNums; num++) {
         debugger;
-        //  output 
+   
         var outputStr = "";
         // 
         for (var factor in factorObj) {
-            // 
+        
             if (num % factor == 0) {
                 // 
                 outputStr += factorObj[factor];
