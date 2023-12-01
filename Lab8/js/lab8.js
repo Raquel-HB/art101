@@ -13,7 +13,7 @@ function subtract (x) {
 var results = x - 10
 return results;
 }
-console.log("subtracting 10 to the array:", numArray );
+console.log("subtracting 10 to the array:", numArray.map(subtract) );
 
 
 
