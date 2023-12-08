@@ -1,5 +1,10 @@
 
+/*
+   lab.js -  Lab 16
 
+   Author: Raquel Herrera-Bernardino
+   Date: Dec 7, 2023
+*/
 
 
 
